@@ -1,0 +1,32 @@
+{
+  "name": "notes_api_nodejs",
+  "version": "1.0.0",
+  "description": "Simple nodejs api.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -x 'node --harmony' server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshweaver23/notes_api_nodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "Josh Weaver",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshweaver23/notes_api_nodejs/issues"
+  },
+  "homepage": "https://github.com/joshweaver23/notes_api_nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongodb": "^2.2.28"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
